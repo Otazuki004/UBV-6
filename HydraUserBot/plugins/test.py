@@ -7,7 +7,7 @@ from pyrogram import filters
 from youtube_search import YoutubeSearch
 from yt_dlp import YoutubeDL
 
-from Hydra import Hydra
+from HydraUserBot import Hydra
 
 
 @Hydra.on_message(filters.command("video"))
