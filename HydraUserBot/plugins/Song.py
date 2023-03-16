@@ -36,14 +36,14 @@ async def vsong(client, message):
     except Exception as e:
         print(e)
     try:
-        msg = await message.reply("Video Processing, Powered by @Toon_LinkZ")
+        msg = await message.reply(f"**Finding Video**")
         with YoutubeDL(ydl_opts) as ytdl:
             ytdl_data = ytdl.extract_info(link, download=True)
             file_name = ytdl.prepare_filename(ytdl_data)
     except Exception as e:
         return await msg.edit(f"🚫 Error: {e}")
     preview = wget.download(thumbnail)
-    await msg.edit("Process Complete.\n Now Uploading.")
+    await msg.edit("Video Founded.\n Now Uploading.")
     title = ytdl_data["title"]
     await message.reply_video(
         file_name,
@@ -77,7 +77,7 @@ ydl_opts = {
 def download_song(_, message):
     query = " ".join(message.command[1:])
     print(query)
-    m = message.reply("🔄 Searching....")
+    m = message.reply(f"🔄 **Searching**...")
     ydl_ops = {"format": "bestaudio[ext=m4a]"}
     try:
         results = YoutubeSearch(query, max_results=1).to_dict()
