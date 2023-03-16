@@ -1,6 +1,6 @@
 LOG_GROUP_ID = -1001768984791
 OWNER_ID = [1985665341]
-HANDLER = ["~", ".", "!"]
+HANDLER = ["~", ".", "!", "/"]
 ALIVE_TEXT = """ **~  Hydra System:**
 ━━━━━━━━━━━━━━━━━━━
 
