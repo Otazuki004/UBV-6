@@ -3,7 +3,7 @@ import time
 from pyrogram import __version__ as pyrover
 from pyrogram import filters
 
-from config import ALIVE_TEXT, HANDLER, Hydra, OWNER_ID
+from config import ALIVE_TEXT, HANDLER, Hydra1, OWNER_ID
 from HydraUserBot import StartTime, get_readable_time, Hydra
 
 
@@ -15,5 +15,5 @@ def alive(_, m):
     ping_time = round((end_time - start_time) * 1000, 3)
     uptime = get_readable_time((time.time() - StartTime))
     m.reply_photo(
-        Hydra, caption=ALIVE_TEXT.format(you.mention, pyrover, ping_time, uptime)
+        Hydra1, caption=ALIVE_TEXT.format(you.mention, pyrover, ping_time, uptime)
     )
