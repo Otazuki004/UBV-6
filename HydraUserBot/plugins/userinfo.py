@@ -50,7 +50,7 @@ no_reply_user = """ ╒═══「 Appraisal results:」
 **ᴘᴇʀᴍᴀʟɪɴᴋ**: {}
 **ᴜsᴇʀʙɪᴏ**: {}
 
-**Meet Me Here🙈 @Besties_XD ✨🥀**
+**Meet Me Here🙈 @FutureCity005 ✨🥀**
 """
 
 
