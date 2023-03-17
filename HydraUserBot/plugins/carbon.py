@@ -27,7 +27,7 @@ async def carbon_func(_, message):
     await Hydra.send_photo(
         message.chat.id,
         carbon,
-        caption="**Meet Me Here🙈 @Besties_XD ✨🥀**",
+        caption="**Meet Me Here🙈 @FutureCity005 ✨🥀**",
     )
     await m.delete()
     carbon.close()
