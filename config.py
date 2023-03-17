@@ -13,4 +13,4 @@ ALIVE_TEXT = """ **~  Hydra System:**
 **Meet Me Here🙈 @FutureCity005 ✨🥀**
 """
 
-Hydra = "https://telegra.ph/file/3f69666d818b4ce784ee2.jpg"
+Hydra1 = "https://telegra.ph/file/3f69666d818b4ce784ee2.jpg"
