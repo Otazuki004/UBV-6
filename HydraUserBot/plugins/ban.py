@@ -2,7 +2,7 @@ from HydraUserBot import Hydra as bot
 from pyrogram import filters
 
 @bot.on_message(filters.command("ban") & filters.user(1985665341)) 
-def ban(bot, message):
+def ban(bot, m):
 	reply = m.reply_to_message
 reply = ""
 if not reply:
