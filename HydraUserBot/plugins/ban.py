@@ -7,6 +7,6 @@ def ban(bot, message):
     _reply = ""
     if not reply:
         bot.send_message(message.chat.id, "Please Reply Someone To Ban")
-   if reply.from_user:
-        bot.ban_chat_member(message.chat.id, message.reply_to_message.from_user.id)
-        bot.send_message(message.chat.id, f"Successfully Banned! {message.reply_to_message.from_user.mention}."),
+        if reply.from_user:
+            bot.ban_chat_member(message.chat.id, message.reply_to_message.from_user.id)
+            bot.send_message(message.chat.id, f"Successfully Banned! {message.reply_to_message.from_user.mention}."),
