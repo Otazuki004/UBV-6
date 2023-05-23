@@ -1,6 +1,6 @@
 from pyrogram import filters
 
-from HydraUserBot.config import HANDLER, OWNER_ID
+from config import HANDLER, OWNER_ID
 from HydraUserBot import Hydra
 
 
