@@ -7,7 +7,7 @@ from HydraUserBot import Hydra
 @Hydra.on_message(filters.command("spam2", prefixes=HANDLER) & filters.user(OWNER_ID))
 async def write(_, message):
     if len(message.command) < 2:
-    name = (
+        name = (
         message.text.split(None, 1)[1]
         if len(message.command) < 3
         else message.text.split(None, 1)[1].replace(" ", "%20")
