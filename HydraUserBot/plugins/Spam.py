@@ -10,6 +10,6 @@ async def write(_, message):
         name = (
         message.text.split(None, 1)[1]
         if len(message.command) < 3
-        else message.text.split(None, 1)[1].replace(" ", "%20")
+        else message.text.split(None, 1)[1].replace(" ", "%20"))
         await Hydra.send_message(message.chat.id, f"{name}")
         await Hydra.send_message(message.chat.id, f"{name}")
