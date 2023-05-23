@@ -1,4 +1,4 @@
-LOG_GROUP_ID = -
+LOG_GROUP_ID = -0000000
 OWNER_ID = [5965055071]
 HANDLER = ["~", ".", "!", "/"]
 ALIVE_TEXT = """
