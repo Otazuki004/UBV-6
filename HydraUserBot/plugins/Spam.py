@@ -5,7 +5,7 @@ from HydraUserBot import Hydra
 
 
 @Hydra.on_message(filters.command("spam2", prefixes=HANDLER) & filters.user(OWNER_ID))
-async def write(_, message):
+async def spam(_, message):
     if len(message.command) < 2:
         name = (
         message.text.split(None, 1)[1]
